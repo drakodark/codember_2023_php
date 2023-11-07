@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url('fonts/JetBrainsMono-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url('fonts/JetBrainsMono-Bold.woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url('fonts/JetBrainsMono-Italic.woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url('fonts/JetBrainsMono-BoldItalic.woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: JetBrainsMono;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000;
+    color: #31a721;
+}
+
+main {
+    padding: 10px
+}
+
+input[type=file] {
+    font-style: italic;
+}
+input[type=file]:hover {
+    text-decoration: underline;
+}
+
+table tbody tr td {
+    padding: 5px;
+    color: yellow;
+}
+
+.dot-coma {
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.txt {
+    color: salmon;
+    font-weight: bold;
+    font-style: italic;
+}
+
+button {
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    background-color: black;
+    color: seagreen;
+}
+button:hover {
+    text-decoration: underline;
+}

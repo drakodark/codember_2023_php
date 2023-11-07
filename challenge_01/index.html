@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codember Challenge 01 PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <pre>
+=============================
+| codember_challenge_01_PHP |
+| v.1.0 by drakodark        |
+=============================
+            </pre>
+            <form action="processor.php" method="post" enctype="multipart/form-data">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>file <span class="txt">*.txt</span> => </td>
+                            <td><label for="input-text"><input type="file" name="input-text" id="input-text" accept="text/plain" required></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="submit"># process data #</button><button type="reset"># clear data #</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
